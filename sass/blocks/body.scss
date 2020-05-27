@@ -1,0 +1,71 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: $main !important;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  background-color: $secondary !important;
+  width: 35px !important;
+  height: 35px !important;
+}
+
+.parallax {
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+#parallax-img {
+  background-image: url("../images/8.gif");
+  height: 600px;
+  color: #ffffff;
+}
+#parallax-img1 {
+  background-image: url("../images/8.png");
+  height: 600px;
+  color: white;
+}
+
+#parallax-img2 {
+  background-image: url("../images/10.jpg");
+  height: 100vh;
+  color: white;
+}
+#parallax-img3 {
+  background-image: url("../images/11.jpg");
+  height: 600px;
+  color: white;
+}
+.bio-img {
+  max-width: 100%;
+}
+
+.text-bio {
+  font-size: 18px;
+  @include media-breakpoint-up(md) {
+    font-size: 22px;
+  }
+}
+.text-block {
+  margin: auto;
+  max-width: 500px;
+  height: auto;
+  border: #4e555b 3px solid;
+  background: $secondary;
+  opacity: 0.7;
+}
+.icon-skill {
+  width: 250px;
+  height: 250px;
+}
+.icon-contact {
+  width: 150px;
+}
+.text-white {
+  color: white;
+}
+.footer {
+  height: 60px;
+}

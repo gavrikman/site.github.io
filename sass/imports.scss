@@ -1,0 +1,18 @@
+//bootstrap
+@import "../bootstrap-4.5.0-dist/scss/bootstrap";
+@import "../bootstrap-4.5.0-dist/scss/bootstrap-grid";
+@import "../bootstrap-4.5.0-dist/scss/bootstrap-reboot";
+
+
+//palette
+@import "palette/colors";
+
+// blocks
+@import 'blocks/header';
+@import "blocks/body";
+
+//size
+@import "size/size";
+
+//fonts
+@import "paragraph/fonts";

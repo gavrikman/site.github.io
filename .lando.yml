@@ -1,0 +1,14 @@
+name: mysite
+recipe: lemp
+config:
+  webroot: .
+services:
+  node:
+    type: node:10
+    globals:
+      grunt-cli: latest
+tooling:
+  npm:
+    service: node
+  node:
+    service: node
